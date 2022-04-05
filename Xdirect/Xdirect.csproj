@@ -97,7 +97,6 @@
     <Content Include="3d\Xopengl.h" />
     <Content Include="3d\xsdl.h" />
     <Content Include="3d\Xsoft.h" />
-    <Content Include="Bernie.bmp" />
     <Content Include="bmp.cpp" />
     <Content Include="color.cpp" />
     <Content Include="console.cpp" />
