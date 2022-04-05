@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xdirect", "Xdirect\Xdirect.csproj", "{67E718D0-105C-4DC5-9F4D-D0B3A6B52B3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67E718D0-105C-4DC5-9F4D-D0B3A6B52B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E718D0-105C-4DC5-9F4D-D0B3A6B52B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E718D0-105C-4DC5-9F4D-D0B3A6B52B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E718D0-105C-4DC5-9F4D-D0B3A6B52B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5C8F9DF-843D-4BF0-88F5-7A6AC9FE1F8A}
+	EndGlobalSection
+EndGlobal

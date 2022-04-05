@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67E718D0-105C-4DC5-9F4D-D0B3A6B52B3E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Xdirect</RootNamespace>
+    <AssemblyName>Xdirect</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Makefile" />
+    <None Include="Test\FILE_ID.DIZ" />
+    <None Include="Test\madar_01.ASC" />
+    <None Include="Test\REACT1.ASC" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="3d\bulletshell.cpp" />
+    <Content Include="3d\D3DERR.CPP" />
+    <Content Include="3d\D3DTEXTR.CPP" />
+    <Content Include="3d\D3DTEXTR.H" />
+    <Content Include="3d\d3dutil.cpp" />
+    <Content Include="3d\D3DUTIL.H" />
+    <Content Include="3d\d3dwin.cpp" />
+    <Content Include="3d\Ddraw.cpp" />
+    <Content Include="3d\dllmain.cpp" />
+    <Content Include="3d\dllmain.h" />
+    <Content Include="3d\face.cpp" />
+    <Content Include="3d\fill.c" />
+    <Content Include="3d\Fill16.cpp" />
+    <Content Include="3d\fx.cpp" />
+    <Content Include="3d\gcache.cpp" />
+    <Content Include="3d\GCACHE.H" />
+    <Content Include="3d\gl.c" />
+    <Content Include="3d\gl.h" />
+    <Content Include="3d\glext.h" />
+    <Content Include="3d\Glide.cpp" />
+    <Content Include="3d\Glidewin.cpp" />
+    <Content Include="3d\main.cpp" />
+    <Content Include="3d\matrix.cpp" />
+    <Content Include="3d\newtonshell.cpp" />
+    <Content Include="3d\object.cpp" />
+    <Content Include="3d\opengl.cpp" />
+    <Content Include="3d\opengl.h" />
+    <Content Include="3d\particle.cpp" />
+    <Content Include="3d\Pipe.cpp" />
+    <Content Include="3d\quat.cpp" />
+    <Content Include="3d\sdl.cpp" />
+    <Content Include="3d\Soft.cpp" />
+    <Content Include="3d\tex.cpp" />
+    <Content Include="3d\texmap.cpp" />
+    <Content Include="3d\Texmap16.cpp" />
+    <Content Include="3d\texmap8.cpp" />
+    <Content Include="3d\trans.cpp" />
+    <Content Include="3d\vector.cpp" />
+    <Content Include="3d\Xd3d.h" />
+    <Content Include="3d\Xglide.h" />
+    <Content Include="3d\Xopengl.h" />
+    <Content Include="3d\xsdl.h" />
+    <Content Include="3d\Xsoft.h" />
+    <Content Include="Bernie.bmp" />
+    <Content Include="bmp.cpp" />
+    <Content Include="color.cpp" />
+    <Content Include="console.cpp" />
+    <Content Include="dderr.h" />
+    <Content Include="dx.cpp" />
+    <Content Include="ffile.cpp" />
+    <Content Include="file.cpp" />
+    <Content Include="Fixed.cpp" />
+    <Content Include="gfx.cpp" />
+    <Content Include="html.c" />
+    <Content Include="Include\lua_dyn-5.1.h" />
+    <Content Include="Include\music.h" />
+    <Content Include="Include\X3d.h" />
+    <Content Include="Include\xdllconv.h" />
+    <Content Include="Include\Xfixed.h" />
+    <Content Include="Include\Xinner.h" />
+    <Content Include="Include\xlib.h" />
+    <Content Include="Include\xlua.h" />
+    <Content Include="Include\xnet.h" />
+    <Content Include="Include\xtype.h" />
+    <Content Include="Include\xzip.h" />
+    <Content Include="luashell.cpp" />
+    <Content Include="Mem.cpp" />
+    <Content Include="pngshell.cpp" />
+    <Content Include="rgb.cpp" />
+    <Content Include="segshell.cpp" />
+    <Content Include="Sound\bassshell.cpp" />
+    <Content Include="Sound\cdrom.cpp" />
+    <Content Include="Sound\dmusic.cpp" />
+    <Content Include="Sound\dsound.cpp" />
+    <Content Include="Sound\midi.cpp" />
+    <Content Include="Sound\openalshell.cpp" />
+    <Content Include="Sound\sdlmixershell.cpp" />
+    <Content Include="spr.cpp" />
+    <Content Include="Test\bkgames.bmp" />
+    <Content Include="Test\Env.bmp" />
+    <Content Include="Test\Test.cpp" />
+    <Content Include="trig.cpp" />
+    <Content Include="Xdllmain.cpp" />
+    <Content Include="Xmain.cpp" />
+    <Content Include="zipshell.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Net\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
